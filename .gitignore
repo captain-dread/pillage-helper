@@ -1,2 +1,17 @@
+# Ignore PyInstaller generated files
+app.spec
+build/
+
+# Ignore other common files and folders
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyzw
+*.py~ 
+*.swp
+.DS_Store
+Thumbs.db
 **.DS_Store
 **__pycache__/
