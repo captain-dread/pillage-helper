@@ -1,9 +1,9 @@
 import PySimpleGUI as sg
-from ships import ships, get_ship_by_name
-from battle import Battle
-from theme import Theme
+from utils.ships import ships, get_ship_by_name
+from utils.battle import Battle
+from utils.theme import Theme
 import pyperclip
-from greedy_finder import process_file
+from utils.greedy_finder import process_file
 
 sg.theme_button_color(Theme().enabled_button_color)
 

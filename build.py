@@ -26,7 +26,7 @@ for package in REQUIRED_PACKAGES:
         print(f"{package} is NOT installed. Installing now...")
         subprocess.check_call(["python", "-m", "pip", "install", package])
 
-# Now build the PyInstaller command
+# Build through pyinstaller command
 pyinstaller_args = ["pyinstaller", "--onefile", "--windowed"] + data_args + ["app.py"]
 
 # Run the command

@@ -1,4 +1,4 @@
-from ships import Ship
+from utils.ships import Ship
 
 
 class Battle:
