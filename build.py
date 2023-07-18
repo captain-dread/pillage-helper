@@ -27,7 +27,9 @@ for package in REQUIRED_PACKAGES:
         subprocess.check_call(["python", "-m", "pip", "install", package])
 
 # Build through pyinstaller command
-pyinstaller_args = ["pyinstaller", "--onefile", "--windowed"] + data_args + ["app.py"]
+pyinstaller_args = (
+    ["pyinstaller", "--onefile", "--windowed"] + data_args + ["first mate.py"]
+)
 
 # Run the command
 subprocess.run(pyinstaller_args)

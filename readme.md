@@ -1,6 +1,8 @@
 # First Mate
 
-To use this tool, you can run the provided executables on the releases tab for Mac or Windows operating system. You may also run the app directly using python. On mac, you might need to go to Privacy & Security to manually allow the app to run.
+To use this tool, you have multiple options based on your operating system. For Mac or Windows, you can run the pre-built executables available in the releases tab. Alternatively, you can directly run the application using Python. If you're using a Mac, you might need to navigate to the Privacy & Security settings to manually grant permission for the app to run.
+
+You can also run the `build.py` script yourself to generate your own executable.
 
 <img src="https://res.cloudinary.com/de2ymful4/image/upload/v1689638423/demo_wlt2xq.png">
 
