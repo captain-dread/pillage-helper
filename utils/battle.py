@@ -33,18 +33,8 @@ class Battle:
             ]
 
     def record_ram_damage(self):
-        if self.player_ship.size != self.enemy_ship.size:  # Different size classes
-            self.player_damage_taken += (
-                2 * self.enemy_ship.ram_damage[self.enemy_ship.size]
-            )
-            self.enemy_damage_taken += (
-                2 * self.player_ship.ram_damage[self.player_ship.size]
-            )
-        else:  # Same size class
-            self.player_damage_taken += self.enemy_ship.ram_damage[self.enemy_ship.size]
-            self.enemy_damage_taken += self.player_ship.ram_damage[
-                self.player_ship.size
-            ]
+        self.player_damage_taken += self.enemy_ship.ram_damage[self.enemy_ship.size]
+        self.enemy_damage_taken += self.player_ship.ram_damage[self.player_ship.size]
 
     def record_shots_taken(self, ship: str, shots: int):
         if ship == "player":
