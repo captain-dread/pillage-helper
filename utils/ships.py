@@ -50,7 +50,7 @@ class Ship:
             base_path = os.path.dirname(os.path.abspath(__file__))
 
         self.image_path = os.path.join(
-            base_path, "../images", f"{ship_type.replace(' ', '_')}.png"
+            base_path, "utils", "images", f"{ship_type.replace(' ', '_')}.png"
         )
 
 

@@ -1,6 +1,7 @@
 # Ignore PyInstaller generated files
 app.spec
-build/
+/build
+/dist
 
 # Ignore other common files and folders
 __pycache__/
