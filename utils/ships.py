@@ -47,7 +47,7 @@ class Ship:
         if getattr(sys, "_MEIPASS", False):
             base_path = sys._MEIPASS
         else:
-            base_path = os.path.dirname(os.path.abspath(__file__))
+            base_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
         self.image_path = os.path.join(
             base_path, "utils", "images", f"{ship_type.replace(' ', '_')}.png"
