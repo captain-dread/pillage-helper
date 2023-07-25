@@ -1,6 +1,8 @@
 # First Mate Pillage Tool
 
-To use this tool, you have multiple options based on your operating system. For Mac or Windows, you can run the pre-built executables available in the releases tab. Alternatively, you can directly run the application using Python. If you're using a Mac, you might need to navigate to the Privacy & Security settings to manually grant permission for the app to run.
+To use this tool, you have multiple options based on your operating system. For Mac or Windows, you can run the pre-built executables available in the [releases page](https://github.com/captain-dread/pillage-helper/releases). 
+
+Alternatively, you can directly run the application using Python. If you're using a Mac, you might need to navigate to the Privacy & Security settings to manually grant permission for the app to run.
 
 You can also run the `build.py` script yourself to generate your own executable if you have python installed.
 
